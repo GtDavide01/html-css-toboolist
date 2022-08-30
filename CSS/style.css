@@ -5,7 +5,7 @@
 }
 /* BODY */
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 /* HEADER */
@@ -31,6 +31,7 @@ main{
     padding-top: 3%;
 }
 
+/* MAIN BOTTON */
 .main-container-botton{
     border-radius: 10px 10px 0px 0px;
     background-color: white;
@@ -56,3 +57,77 @@ main{
     background-color: white;
     color: grey;
 }
+
+/* MAIN CONTENT */
+.main-container-content{
+    margin-top: 5px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: white;
+    height: 80% ; 
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 50px;
+ 
+}
+
+.main-container-content ul{
+    list-style-type: none ;
+    font-weight: bold;
+    font-size: 20px;
+    color : rgba(70,74,83,1) ;
+}
+.main-container-content li{
+    color: rgba(70,74,83,2);
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.visual-check{
+    display: inline-block;
+    color: rgba(109,196,175,1);
+    border: 1px solid rgba(109,196,175,1);
+    background-color: white;
+    border-radius: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+}
+.visual-cross{
+    display: inline-block;
+    color: red;
+    border: 1px solid red;
+    background-color: white;
+    border-radius: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+}
+/* MAIN CATEGORY */
+.category{
+    font-size: small;
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+}
+.catergory , .editorial{
+    background-color:rgba(71,173,241,1);
+}
+.catergory , .q1goals{
+    background-color:rgba(156,114,228,1);
+}
+.catergory , .recruting{
+    background-color :  rgba(109,196,175,1);
+}
+.catergory , .mobile{
+    background-color:#f29e33 ;
+}
+.catergory , .website{
+    background-color:#d863a1;
+}
+.catergory , .sales{
+    background-color:#b0c926;
+}
+/* /MAIN CATEGORY */
+/* /MAIN CONTENT */
