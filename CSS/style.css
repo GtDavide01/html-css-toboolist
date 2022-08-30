@@ -70,13 +70,14 @@ main{
  
 }
 
-.main-container-content ul{
+.main-container-content .title-content{
     list-style-type: none ;
     font-weight: bold;
     font-size: 20px;
     color : rgba(70,74,83,1) ;
 }
 .main-container-content li{
+    list-style-type: none;
     color: rgba(70,74,83,2);
     font-size: 18px;
     font-weight: normal;
